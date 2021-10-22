@@ -37,7 +37,7 @@
 
 .logo {
     line-height: 4rem;
-    margin-left: 20px;
+    padding-left: 40px;
     font-size: 2rem;
     font-weight: bold;
     width: 300px;
@@ -45,7 +45,6 @@
 
 .logo span{
     line-height: 4rem;
-    margin-left: 20px;
     font-size: 2rem;
     font-weight: normal;
     width: 300px;
