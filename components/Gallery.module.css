@@ -1,0 +1,18 @@
+.container {
+    margin: 40px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container img {
+    max-width: 400px;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: all 70ms ease;
+}
+
+.container img:hover {
+    transform: scale(0.95);
+}

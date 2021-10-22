@@ -34,15 +34,15 @@ function Header(){
                 </li>
             </ul>
             <div className={styles.social}>
-            <Link href='https://www.instagram.com/thiyukio' >
-                <FontAwesomeIcon icon={faInstagram}/>
-            </Link>
-            <Link href='https://www.twitter.com/yukionag' >
-                <FontAwesomeIcon icon={faTwitter}/>
-            </Link>
-            <Link href='https://www.linkedin.com/in/thiago-yukio-nagatomo/' >
+            <a href='https://www.linkedin.com/in/thiago-yukio-nagatomo/'  target="_blank">
                 <FontAwesomeIcon icon={faLinkedin}/>
-            </Link>
+            </a>
+            <a href='https://www.twitter.com/yukionag'  target="_blank">
+                <FontAwesomeIcon icon={faTwitter}/>
+            </a>
+            <a href='https://www.instagram.com/thiyukio' target="_blank">
+                <FontAwesomeIcon icon={faInstagram}/>
+            </a>
             </div>
 
 
