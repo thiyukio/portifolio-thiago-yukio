@@ -17,6 +17,13 @@
     height: 4rem;
 }
 
+@media (max-width: 900px) {
+    .list {
+        display: none;
+    }
+
+}
+
 .list li{
     height: 2rem;
     display: inline-flex;
