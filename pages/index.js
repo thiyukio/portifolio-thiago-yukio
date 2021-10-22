@@ -1,19 +1,20 @@
-import Layout from '../components/layout';
-import Image from 'next/image';
-import spook from '../static/spooktober11.png';
-
-import Head from './head'
+import Head from 'next/head'
+import Image from 'next/image'
 
 function Home() {
     return(
-        <>
-        <Head/>
-        <div> 
-        {/* <Image
-            src={spook}
-        /> */}
+        <div>
+            <Head
+            title={'Thiago Yukio'}            
+            />
+            <Image
+                src='/images/spooktober7.png'
+                width={210}
+                height={297}
+                alt='ghost'
+            />
+
         </div>
-        </>
     )
 }
 
