@@ -1,0 +1,58 @@
+.header {
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+
+.list li a{
+    line-height: 2rem;
+    font-size: 25px;
+    color: #777;
+}
+
+.list {
+    padding: 0;
+    height: 4rem;
+}
+
+.list li{
+    height: 2rem;
+    display: inline-flex;
+    align-content: center;
+    padding: 1rem;
+}
+
+.list li a:hover, .header svg:hover {
+    color: black;  
+}
+
+.logo {
+    line-height: 4rem;
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 300px;
+}
+
+.logo span{
+    line-height: 4rem;
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: normal;
+    width: 300px;
+}
+
+.social {
+    width: 300px;
+}
+
+.social svg{
+    font-size: 2rem;
+    height: 4rem;
+    padding-right: 20px;
+    cursor: pointer;
+    color: #777;
+    float: right;
+}
