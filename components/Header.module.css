@@ -52,6 +52,9 @@
 
 .social {
     width: 300px;
+    display: inline;
+    justify-content: center;
+
 }
 
 .social svg{
@@ -61,4 +64,10 @@
     cursor: pointer;
     color: #777;
     float: right;
+}
+
+@media (max-width:415px) {
+    .social {
+        translate: 0 32px;
+    }
 }
